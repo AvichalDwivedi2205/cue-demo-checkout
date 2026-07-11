@@ -1,0 +1,10 @@
+{
+  "feature": "checkout-v2",
+  "enabled": false,
+  "rolloutPercent": 0,
+  "guardrails": {
+    "minimumCompletionRate": 0.045,
+    "maximumErrorRate": 0.01
+  },
+  "rollbackOwner": null
+}
