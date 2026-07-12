@@ -1,10 +1,14 @@
 {
   "feature": "checkout-v2",
-  "enabled": false,
-  "rolloutPercent": 0,
+  "enabled": true,
+  "rolloutPercent": 10,
+  "startDate": "July 13",
+  "implementationOwner": "Avichal",
   "guardrails": {
-    "minimumCompletionRate": 0.045,
-    "maximumErrorRate": 0.01
+    "minimumCompletionRate": 0.45,
+    "safariMinimumCompletionRate": 0.42,
+    "maximumErrorRate": 0.01,
+    "requiredCIStatus": "green"
   },
-  "rollbackOwner": null
+  "rollbackOwner": "Priya"
 }
